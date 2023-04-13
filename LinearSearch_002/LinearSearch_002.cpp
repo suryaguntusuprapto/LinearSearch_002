@@ -55,3 +55,7 @@ void Linearsearch() {
     } while ((ch == 'y') || (ch == 'Y'));
 }
 
+int main() {
+    input();
+    Linearsearch();
+}
