@@ -46,7 +46,7 @@ void Linearsearch() {
             }
         }
 
-        if (i == n)
+        if (i == n)                         //langkah 5b  not found
             cout << "\n" << item << " not found in the array\n";
         cout << "\nNumber of comparison: " << comparison << endl;
 
